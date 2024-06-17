@@ -1,3 +1,13 @@
+document.addEventListener("DOMContentLoaded", function() {
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector("header nav");
+
+    hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    });
+});
+
 // Slideshow
 var slideIndex = 0;
 showSlides();
@@ -11,5 +21,5 @@ function showSlides() {
     slideIndex++;
     if (slideIndex > slides.length) {slideIndex = 1}    
     slides[slideIndex-1].style.display = "block";  
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
+    setTimeout(showSlides, 8000); // Change image every 5 seconds
 }
