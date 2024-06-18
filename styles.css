@@ -296,3 +296,26 @@ footer a#insta i:hover
     color: #000;
     transition: 0.3s all;
 }
+
+#webswift-design {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+#webswift-design a {
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+
+#webswift-design:hover {
+    background-color: white;
+    color: #333;
+}
+
+#webswift-design:hover a {
+    color: #333;
+    text-decoration: underline;
+}
